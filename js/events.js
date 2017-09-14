@@ -23,7 +23,6 @@ function pressIt() {
 }
 
 $(document).ready(function(){
-  pressIt();
   submitIt();
   frameIt();
   getIt();
