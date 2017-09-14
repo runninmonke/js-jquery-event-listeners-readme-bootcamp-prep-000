@@ -18,11 +18,13 @@ function submitIt() {
 
 function pressIt() {
   $('document').on('keydown', function(e) {
-    console.log('!')
+    console.log(e.which || e.detail);
+    debugger
   })
 }
 
 $(document).ready(function(){
+  pressIt();
   submitIt();
   frameIt();
   getIt();
