@@ -7,6 +7,7 @@ function getIt() {
 function frameIt() {
   $('img').on('load', function(e){
     console.log(e)
+    debugger
   })
 }
 
@@ -19,6 +20,7 @@ function submitIt() {
 function pressIt() {
   $('document').on('keydown', function(e) {
     console.log(e.which || e.detail);
+    debugger
   })
 }
 
