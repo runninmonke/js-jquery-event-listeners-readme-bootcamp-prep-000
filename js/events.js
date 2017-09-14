@@ -6,8 +6,7 @@ function getIt() {
 
 function frameIt() {
   $('img').on('load', function(e){
-    console.log(e)
-    debugger
+    e.target.className = 'tasty';
   })
 }
 
