@@ -18,7 +18,7 @@ function submitIt() {
 
 function pressIt() {
   $('document').on('keydown', function(e) {
-    console.log(e.which || e.detail);
+    console.log(e);
     debugger
   })
 }
