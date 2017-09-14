@@ -22,7 +22,6 @@ function pressIt() {
     if (key === 71) {
       alert('You pressed G!')
     }
-    debugger
   })
 }
 
