@@ -18,8 +18,7 @@ function submitIt() {
 
 function pressIt() {
   $('document').on('keydown', function(e) {
-    console.log(e);
-    debugger
+    console.log('!')
   })
 }
 
